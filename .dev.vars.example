@@ -1,0 +1,4 @@
+# Local server settings. Copy to .dev.vars for loopback tests only.
+# Cloudflare publishes this dummy testing key; it carries no account access.
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+TURNSTILE_HOSTNAME=127.0.0.1

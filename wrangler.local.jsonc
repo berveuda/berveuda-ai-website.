@@ -1,0 +1,11 @@
+{
+  // Explicitly selected by local npm scripts. Production is configured in Pages.
+  "name": "berveuda-ai-local",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2026-06-01",
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "berveuda-inquiries",
+    "database_id": "00000000-0000-4000-8000-000000000001"
+  }]
+}
