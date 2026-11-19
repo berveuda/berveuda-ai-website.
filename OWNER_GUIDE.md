@@ -2,6 +2,8 @@
 
 Successful submissions go to the `inquiries` table in Cloudflare D1. The owner checks this database directly. Email notifications, a CRM sync and a public lead viewer are outside the current setup. The website only accepts an inquiry after the server validates the submission, verifies the Turnstile token and confirms the database operation.
 
+The public assessment form is at [berveuda-ai.pages.dev/contact](https://berveuda-ai.pages.dev/contact). Its first end-to-end production check matched a visitor receipt to a D1 row on November 19, 2026. The labeled test record was removed.
+
 ## Check for new inquiries
 
 1. Sign in to the account that owns the live Pages project. Open **Storage & Databases → D1 SQL Database → berveuda-inquiries → Console**. Use the Cloudflare account’s multifactor authentication and limit D1 access to people responsible for inquiries. [D1 dashboard and Console](https://developers.cloudflare.com/d1/get-started/)

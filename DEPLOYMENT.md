@@ -2,6 +2,10 @@
 
 Start with the local site and tests in [README.md](README.md). The following steps create a real hosting environment. Use the Berveuda owner’s GitHub and Cloudflare accounts and a Cloudflare **Free** account for this site. The owner approved public release, the Privacy Policy, Terms of Use and the 90-day retention period on November 19, 2026. Track live setup and verification in the [launch checklist](LAUNCH_CHECKLIST.md).
 
+## Current production configuration
+
+The Pages project is `berveuda-ai`. Its permanent address is [berveuda-ai.pages.dev](https://berveuda-ai.pages.dev/). It builds `main` from `berveuda/berveuda-ai-website.`. The production database is `berveuda-inquiries` and the widget is named `Berveuda AI assessments`. Use the existing resources for updates. Steps 1–5 explain how to reproduce this configuration from an empty account.
+
 ## 1. Put the website source in GitHub
 
 The owner selected the public [Berveuda AI website repository](https://github.com/berveuda/berveuda-ai-website.). The repository name ends with a period. Use that repository in the Pages GitHub picker. The following creation instructions are for setting up a separate copy from scratch.

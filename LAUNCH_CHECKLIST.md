@@ -16,10 +16,10 @@
 
 ## Production acceptance
 
-- [ ] Connect Cloudflare Pages to the selected GitHub repository and confirm the production build commit.
-- [ ] Confirm the assigned HTTPS hostname, D1 binding, real Turnstile configuration and origin-based SEO metadata.
-- [ ] Check all public routes, navigation, mobile layout, branded 404 status, static assets and metadata on the public site.
-- [ ] Submit a live inquiry through real Turnstile, match its receipt in authenticated production D1 and remove the labeled test row.
-- [ ] Record the verified public URL, deployment commit and date.
+- [x] Connect Cloudflare Pages to GitHub. The production build from `33f6aeed7c1ea14f8012b58dc8f7170899f088c7` deployed successfully.
+- [x] Confirm HTTPS, production D1 binding, managed Turnstile widget, final origin, canonical tags and all eight sitemap URLs.
+- [x] Check eight public pages, branded 404 status, 21 distinct internal destinations, mobile navigation, interactive workflow controls, static assets, headers and metadata on the live site. The live endpoint rejected a submission missing verification.
+- [x] Submit a live inquiry through real managed Turnstile. The production UI receipt matched exactly one row in authenticated production D1 on November 19, 2026 at 20:34 UTC. Confirm the consent version, delete only that labeled test row and verify zero matching rows remain.
+- [x] Public address verified on November 19, 2026 at [berveuda-ai.pages.dev](https://berveuda-ai.pages.dev/). Deployment ID `3ee547a2-db76-4ec9-8a2b-8b5f0b642b41`.
 
 The owner checks D1 directly for new inquiries and carries out the 90-day retention policy. Automated accessibility scans supplement keyboard and visual checks. They do not establish a WCAG certification.

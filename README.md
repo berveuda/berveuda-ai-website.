@@ -60,4 +60,4 @@ Only `/api/inquiries` invokes a Pages Function. Other routes are static. The loc
 
 ## Release status
 
-The local build and verification record are in [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md). The owner approved public deployment, the Privacy Policy, Terms of Use and 90-day retention on November 19, 2026. Production verification requires the connected GitHub repository, Cloudflare account and a live inquiry receipt. No verified public address has been assigned to this checkout.
+The public site is hosted at [berveuda-ai.pages.dev](https://berveuda-ai.pages.dev/). Cloudflare Pages builds the owner-selected GitHub repository’s main branch. The owner approved public deployment, the Privacy Policy, Terms of Use and 90-day retention on November 19, 2026. See [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md) for production checks, including lead persistence.
